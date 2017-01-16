@@ -20,7 +20,7 @@ class App extends React.Component {
 
         <div className="row">
           <div className="col-xs-10 col-xs-offset-1">
-            <Home name={"kam"} age={24} user={user}>
+            <Home name={"kam"} initialAge={24} user={user}>
               <p>this is a children nested under the Home</p>
             </Home>
           </div>
